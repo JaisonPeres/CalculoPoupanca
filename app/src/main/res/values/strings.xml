@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculoPoupanca</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="valor_aplicacao">Insira o Valor Aplicado</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="valor_taxa">Insira o valor da taxa</string>
+    <string name="valor_tempo">Insira o tempo de aplicação</string>
+</resources>
