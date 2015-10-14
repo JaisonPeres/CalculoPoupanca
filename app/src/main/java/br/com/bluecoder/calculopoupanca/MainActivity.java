@@ -35,7 +35,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         double val2 = Double.parseDouble(val_tax.getText().toString());
         double val3 = Double.parseDouble(val_temp.getText().toString());
 
-        double mont = (val1 + val2) * ((val3 / 100)+1);
+        double mont = 0;
+        for(int i = 0; i < val3; i++){
+            mont = (mont + val1)*((val2/100)+1);
+        }
+        //double mont = (val1 + val2) * ((val3 / 100)+1);
 
         AlertDialog.Builder dlg = new AlertDialog.Builder(this);
 
